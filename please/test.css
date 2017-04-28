@@ -1,0 +1,12 @@
+#big_picture article img {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.container::after, footer .container::after{
+  display: block;
+  content:'';
+  clear: both;
+}
